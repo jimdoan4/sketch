@@ -27,7 +27,9 @@ body {
   font-size: 1.1rem;
   font-weight: 700;
   letter-spacing: .1rem;
-  transition: background-color .5s ease 0s;
+  /* transition: background-color .5s ease 0s; */
+  background: #ba0e0e;
+  box-shadow: 0 0 .8rem rgba(0, 0, 0, 0.075);
 }
 
 .navbar-brand img {
@@ -61,7 +63,8 @@ body {
 
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link:hover {
-  color: #ba0e0e;
+  color: white;
+  background: black;
 }
 
 .navbar.solid {
@@ -72,7 +75,11 @@ body {
 /*============= LANDING PAGE =============*/
 
 .home-inner {
-  background-image: url('https://vignette.wikia.nocookie.net/911ffa3c-57ba-424b-8d69-3ae3fe014aba/scale-to-width-down/800');
+  background-image: url('https://cdn.pixabay.com/photo/2017/08/06/08/27/people-2590266_960_720.jpg');
+  /* background-color: rgba(0, 0, 0, 0.5) !important; */
+  background-size: cover no-repeat;
+  opacity: .94;
+  box-shadow: 0 0 .8rem rgba(0, 0, 0, 0.075);
 }
 
 .caption {
@@ -154,20 +161,20 @@ h3.heading {
   font-size: 1.9rem;
   font-weight: 700;
   text-transform: uppercase;
-  text-align: center;
+  text-align: left;
   margin-bottom: 1.9rem;
 }
 
 .heading-underline {
-  width: 3rem;
+  /* width: 100rem;
   height: .2rem;
   background-color: #ba0e0e;
-  margin: 0 auto 2rem;
+  margin: 0 auto 2rem; */
 }
 
 .feature {
   text-align: center;
-
+  box-shadow: 0 0 .8rem rgba(0, 0, 0, 0.075);
 }
 
 .feature .fa-layers {
@@ -210,12 +217,15 @@ h3.heading {
 
 .row.padding {
   padding: 2rem 0 1rem;
-
+  box-shadow: 0 0 .8rem rgba(0, 0, 0, 0.075);
 }
 
 img.example-image {
   max-width: 100%;
+  /* height: 240px; */
 }
+
+
 
 .row.no-padding [class*=col-] {
   padding: 0;
@@ -244,6 +254,7 @@ img.example-image {
   transition: transform .7s ease;
   overflow: hidden;
   position: relative;
+  box-shadow: 0 0 .8rem rgba(0, 0, 0, 0.075);
 
 }
 
@@ -308,6 +319,7 @@ img.example-image {
   box-shadow: 0 0 .8rem rgba(0, 0, 0, .075);
   margin: 0 1rem;
   transition: transform .4s ease;
+  box-shadow: 0 0 .8rem rgba(0, 0, 0, 0.075);
 }
 
 .card-img-top {
@@ -370,6 +382,7 @@ img.example-image {
   height: auto;
   border-radius: 50%;
   transition: transform .3s ease;
+  box-shadow: 0 0 .8rem rgba(0, 0, 0, 0.075);
 }
 
 .clients img:hover {
