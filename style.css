@@ -28,7 +28,7 @@ body {
   font-weight: 700;
   letter-spacing: .1rem;
   /* transition: background-color .5s ease 0s; */
-  background: #ba0e0e;
+  background: black;
   box-shadow: 0 0 .8rem rgba(0, 0, 0, 0.075);
 }
 
@@ -91,7 +91,7 @@ body {
 }
 
 .caption h1 {
-  color: white;
+  color: #ba0e0e;
   font-size: 4.5rem;
   text-transform: uppercase;
   font-weight: 700;
@@ -108,6 +108,10 @@ body {
   text-shadow: .1rem .1rem .5rem black;
   padding-bottom: 2rem;
 }
+
+/* .tops {
+  color: #ba0e0e !important;
+} */
 
 .btn-lg {
   border-width: medium;
@@ -248,13 +252,14 @@ img.example-image {
 
 .pricing-column {
   background-color: white;
-  padding: 2rem;
-  border-top: .2rem solid #ba0e0e;
+  padding: .5rem;
+  margin: .5rem;
+  /* border-top: .2rem solid #ba0e0e; */
   box-shadow: 0 0 .8rem rgba(0, 0, 0, 0.075);
   transition: transform .7s ease;
   overflow: hidden;
   position: relative;
-  box-shadow: 0 0 .8rem rgba(0, 0, 0, 0.075);
+
 
 }
 
@@ -583,6 +588,10 @@ a.top-scroll:hover {
   }
 }
 
+.check {
+  background-image: url('https://static3.amsterdam-dance-event.nl/uploads/images/cache/2019/06/1-kleiner_181343_x640_90_0_0_c.jpg') !important;
+  box-shadow: 0 0 1rem rgba(0, 1, 0, 0.075) !important;
+}
 
 /*============ BOOTSTRAP BREAK POINTS:
 
